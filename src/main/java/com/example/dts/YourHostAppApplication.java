@@ -8,8 +8,9 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 public class YourHostAppApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(YourHostAppApplication.class, args);
-	}
+	/*
+	 * public static void main(String[] args) {
+	 * SpringApplication.run(YourHostAppApplication.class, args); }
+	 */
 
 }
