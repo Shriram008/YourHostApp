@@ -205,7 +205,7 @@ span.psw {
 			<tr>
 				<td width="1200px">
 					<p>Your Share Portal</p>
-				<td width='100px' onclick="window.location='../HR/Login.jsp';"><p>Log Out</p></td>
+				<td width='100px' onclick="window.location='logout';"><p>Log Out</p></td>
 			</tr>
 		</table>
 
@@ -219,11 +219,11 @@ span.psw {
 -->
 <div id='center' >
 		<table style="background-image:url(../HR/login.jpg);background-repeat:no-repeat;background-size:1300px 500px;   width: 1300px; height: 500px;">
-			<tr height="500px" >
-			<td width="700px" ></td>
-			<td width="300px">
-			<table style="background-color: #fefefe">
-			<tr><td>
+			<tr  >
+			
+			<td >
+			<table style="background-color: #fefefe" align="center">
+			<tr><td width="300px">
 			<form action="/LoginUser" >
   <div class="imgcontainer">
    <!--  <img src="User_image.png" alt="Avatar" class="avatar"> -->
@@ -239,18 +239,18 @@ span.psw {
     <button type="submit">Login</button>
     <label>
 
-      <a href="/redirectSignUpPage" name="SignUP"> New User? Sign up... </a>
+      <div align="center"><a href="/redirectSignUpPage" name="SignUP" > Click here to SignUp </a></div>
     </label>
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <span class="psw"><a href="#">Forgot password?</a></span>
   </div>
 </form>
 	</td></tr></table>		
 			</td>
-		<td width="200px">
+		
 			</table>
 			</div>
 	

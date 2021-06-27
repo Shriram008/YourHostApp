@@ -165,6 +165,19 @@ span.psw {
     float: right;
     padding-top: 16px;
 }
+span.signUp {
+    float: right;
+    
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
 </style>
 <script>
 	$(function() {
@@ -221,11 +234,11 @@ span.psw {
 -->
 <div id='center' >
 		<table style="background-image:url(../HR/login.jpg);background-repeat:no-repeat;background-size:1300px 500px;   width: 1300px; height: 500px;">
-			<tr height="500px" >
-			<td width="700px" ></td>
-			<td width="300px">
-			<table style="background-color: #fefefe">
-			<tr><td>
+			<tr  >
+			
+			<td >
+			<table style="background-color: #fefefe" align="center">
+			<tr><td width="300px">
 			<form action="/createLoginUser" method="post">
   <div class="imgcontainer">
    <!--  <img src="User_image.png" alt="Avatar" class="avatar"> -->
@@ -244,7 +257,11 @@ span.psw {
     <label for="psw"><b>Contact Number</b></label>
     <input type="text" placeholder="Enter Password" name="userContact" required>
         
-    <button type="submit">Sign Up</button>
+    <div></div>
+    <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn" onclick="window.location='/';">Cancel</button>
+    <span class="signUp"><button type="submit">Sign Up</button></span>
+  </div>
     
   </div>
 
@@ -252,7 +269,6 @@ span.psw {
 </form>
 	</td></tr></table>		
 			</td>
-		<td width="200px">
 			</table>
 			</div>
 	
